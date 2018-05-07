@@ -39,7 +39,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                <children>
                   <AnchorPane fx:id="apDesignPane" prefHeight="384.0" prefWidth="668.0">
                      <children>
-                        <Label layoutX="14.0" layoutY="18.0" text="Store Keeper" textFill="#ddcdcc">
+                        <Label layoutX="14.0" layoutY="18.0" text="DICT Inventory System" textFill="#ddcdcc">
                            <font>
                               <Font name="System Bold" size="31.0" />
                            </font>
@@ -78,16 +78,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
                               <Button fx:id="btnLogin" layoutX="96.0" layoutY="203.0" mnemonicParsing="false" onAction="#btnLogin" text="Log In" />
                            </children>
                         </AnchorPane>
-                        <Text fill="WHITE" layoutX="14.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thanks for choosing “storekeeper” . This is an Open source product for you" wrappingWidth="319.99999513477087">
-                           <font>
-                              <Font name="System Italic" size="16.0" />
-                           </font></Text>
-                        <Text fill="#f5efef" layoutX="14.0" layoutY="168.0" strokeType="OUTSIDE" strokeWidth="0.0" text="You can share your comment / Requirement / Bug report with me." wrappingWidth="319.9999902378768">
-                           <font>
-                              <Font name="System Italic" size="16.0" />
-                           </font>
-                        </Text>
-                        <Label layoutX="14.0" layoutY="220.0" text="Mail Me:  kmrifat@gmail.com" textFill="#e8d9d9" />
                         <Hyperlink id="hl-database" fx:id="hlDatabase" layoutX="490.0" layoutY="346.0" onAction="#hlDbOnAction" text="DB SETUP" />
                      </children>
                   </AnchorPane>
