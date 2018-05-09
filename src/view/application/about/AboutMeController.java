@@ -32,7 +32,7 @@ public class AboutMeController implements Initializable {
     @FXML
     private ImageView imgMyImg;
     
-    Image image = new Image("/image/myPic2.jpg");
+    Image image = new Image("/image/dict_logo2.png");
 
     /**
      * Initializes the controller class.

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!--
 Copyright (C) 2018
 
@@ -16,39 +17,47 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
 -->
 
-<?import javafx.scene.text.*?>
-<?import javafx.scene.shape.*?>
-<?import javafx.scene.image.*?>
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.control.*?>
-<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="553.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.application.about.AboutMeController">
+<AnchorPane id="AnchorPane" prefHeight="553.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="view.application.about.AboutMeController">
    <children>
       <VBox alignment="CENTER" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
          <children>
             <HBox alignment="CENTER" prefHeight="517.0" prefWidth="735.0">
                <children>
-                  <AnchorPane prefHeight="517.0" prefWidth="689.0">
+                  <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="517.0" prefWidth="689.0">
                      <children>
-                        <Label layoutX="197.0" layoutY="195.0" prefHeight="35.0" prefWidth="297.0" text="K M Rifat ul alom">
+                        <ImageView fx:id="imgMyImg" fitHeight="285.0" fitWidth="689.0" layoutX="1.0" layoutY="14.0" pickOnBounds="true" smooth="false" />
+                        <Label layoutX="197.0" layoutY="311.0" prefHeight="35.0" prefWidth="297.0" text="Visayas Cluster 2">
                            <font>
                               <Font name="System Bold" size="29.0" />
                            </font>
                         </Label>
-                        <Label layoutX="145.0" layoutY="237.0" text="Atish Dipankar University Of Science and Technology">
+                        <Label layoutX="186.0" layoutY="394.0" text="Cliff Debalucos @ fb.com/cbrital">
                            <font>
                               <Font size="15.0" />
                            </font>
                         </Label>
-                        <Label layoutX="156.0" layoutY="259.0" text="Department: CSE, Batch: D-16, Student ID: 121-0320-401" />
-                        <Label layoutX="264.0" layoutY="284.0" text="M@il me :" />
-                        <Label layoutX="184.0" layoutY="307.0" text="Find me on facebook :" />
-                        <Hyperlink layoutX="341.0" layoutY="280.0" text="kmrifat@gmail.com" />
-                        <Hyperlink layoutX="341.0" layoutY="303.0" text="facebook.com/kmrifat" />
-                        <ImageView fx:id="imgMyImg" fitHeight="162.0" fitWidth="153.0" layoutX="265.0" layoutY="23.0" pickOnBounds="true" smooth="false" />
+                        <Label layoutX="186.0" layoutY="415.0" text="ChanPaul Gastardo @ fb.com/chanpaulgastardo">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="186.0" layoutY="436.0" text="Kevin Sigue @ fb.com/MrSeagate07">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label layoutX="186.0" layoutY="457.0" text="Arnel Baguio @ fb.com/arnel4u08">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
                      </children>
                   </AnchorPane>
                </children>
